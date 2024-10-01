@@ -28,12 +28,40 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            components = new System.ComponentModel.Container();
+            lblGraph = new Label();
+            timer1 = new System.Windows.Forms.Timer(components);
+            SuspendLayout();
+            // 
+            // lblGraph
+            // 
+            lblGraph.AutoSize = true;
+            lblGraph.Location = new Point(12, 9);
+            lblGraph.Name = "lblGraph";
+            lblGraph.Size = new Size(66, 20);
+            lblGraph.TabIndex = 0;
+            lblGraph.Text = "lblGraph";
+            lblGraph.Click += lblGraph_Click;
+            // 
+            // timer1
+            // 
+            timer1.Tick += timer1_Tick;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(lblGraph);
+            Name = "Form1";
+            Text = "PinGraph";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label lblGraph;
+        private System.Windows.Forms.Timer timer1;
     }
 }
