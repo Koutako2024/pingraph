@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PinGraph")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+092f6fa6042a73925602e4ff426f122fce9895ff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5fbee4f7f5d7bf784a8bbc7b01dc4bdff2c3a544")]
 [assembly: System.Reflection.AssemblyProductAttribute("PinGraph")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PinGraph")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

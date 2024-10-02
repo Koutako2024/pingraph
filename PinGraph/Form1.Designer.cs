@@ -29,39 +29,79 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            lblGraph = new Label();
             timer1 = new System.Windows.Forms.Timer(components);
+            BoxMeter = new PictureBox();
+            BoxFrame = new PictureBox();
+            label1 = new Label();
+            LblDebug = new Label();
+            ((System.ComponentModel.ISupportInitialize)BoxMeter).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)BoxFrame).BeginInit();
             SuspendLayout();
-            // 
-            // lblGraph
-            // 
-            lblGraph.AutoSize = true;
-            lblGraph.Location = new Point(12, 9);
-            lblGraph.Name = "lblGraph";
-            lblGraph.Size = new Size(66, 20);
-            lblGraph.TabIndex = 0;
-            lblGraph.Text = "lblGraph";
-            lblGraph.Click += lblGraph_Click;
             // 
             // timer1
             // 
             timer1.Tick += timer1_Tick;
             // 
+            // BoxMeter
+            // 
+            BoxMeter.BackColor = Color.White;
+            BoxMeter.Location = new Point(12, 12);
+            BoxMeter.Name = "BoxMeter";
+            BoxMeter.Size = new Size(124, 426);
+            BoxMeter.TabIndex = 1;
+            BoxMeter.TabStop = false;
+            // 
+            // BoxFrame
+            // 
+            BoxFrame.BackColor = Color.DimGray;
+            BoxFrame.Location = new Point(12, 12);
+            BoxFrame.Name = "BoxFrame";
+            BoxFrame.Size = new Size(124, 426);
+            BoxFrame.TabIndex = 2;
+            BoxFrame.TabStop = false;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(162, 62);
+            label1.Name = "label1";
+            label1.Size = new Size(50, 20);
+            label1.TabIndex = 3;
+            label1.Text = "label1";
+            // 
+            // LblDebug
+            // 
+            LblDebug.AutoSize = true;
+            LblDebug.ForeColor = SystemColors.ControlLightLight;
+            LblDebug.Location = new Point(153, 16);
+            LblDebug.Name = "LblDebug";
+            LblDebug.Size = new Size(225, 60);
+            LblDebug.TabIndex = 4;
+            LblDebug.Text = "For Debug\r\nYes this is a label for only debug.\r\nI'm only so.";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(lblGraph);
+            BackColor = Color.Black;
+            ClientSize = new Size(404, 450);
+            Controls.Add(LblDebug);
+            Controls.Add(label1);
+            Controls.Add(BoxMeter);
+            Controls.Add(BoxFrame);
             Name = "Form1";
             Text = "PinGraph";
+            ((System.ComponentModel.ISupportInitialize)BoxMeter).EndInit();
+            ((System.ComponentModel.ISupportInitialize)BoxFrame).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private Label lblGraph;
         private System.Windows.Forms.Timer timer1;
+        private PictureBox BoxMeter;
+        private PictureBox BoxFrame;
+        private Label label1;
+        private Label LblDebug;
     }
 }

@@ -1,0 +1,17 @@
+C:\Users\kouta\Documents\projects\unfinished\PinGraph\PinGraph\bin\Debug\net8.0-windows\PinGraph.exe
+C:\Users\kouta\Documents\projects\unfinished\PinGraph\PinGraph\bin\Debug\net8.0-windows\PinGraph.deps.json
+C:\Users\kouta\Documents\projects\unfinished\PinGraph\PinGraph\bin\Debug\net8.0-windows\PinGraph.runtimeconfig.json
+C:\Users\kouta\Documents\projects\unfinished\PinGraph\PinGraph\bin\Debug\net8.0-windows\PinGraph.dll
+C:\Users\kouta\Documents\projects\unfinished\PinGraph\PinGraph\bin\Debug\net8.0-windows\PinGraph.pdb
+C:\Users\kouta\Documents\projects\unfinished\PinGraph\PinGraph\obj\Debug\net8.0-windows\PinGraph.Form1.resources
+C:\Users\kouta\Documents\projects\unfinished\PinGraph\PinGraph\obj\Debug\net8.0-windows\PinGraph.csproj.GenerateResource.cache
+C:\Users\kouta\Documents\projects\unfinished\PinGraph\PinGraph\obj\Debug\net8.0-windows\PinGraph.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kouta\Documents\projects\unfinished\PinGraph\PinGraph\obj\Debug\net8.0-windows\PinGraph.AssemblyInfoInputs.cache
+C:\Users\kouta\Documents\projects\unfinished\PinGraph\PinGraph\obj\Debug\net8.0-windows\PinGraph.AssemblyInfo.cs
+C:\Users\kouta\Documents\projects\unfinished\PinGraph\PinGraph\obj\Debug\net8.0-windows\PinGraph.csproj.CoreCompileInputs.cache
+C:\Users\kouta\Documents\projects\unfinished\PinGraph\PinGraph\obj\Debug\net8.0-windows\PinGraph.dll
+C:\Users\kouta\Documents\projects\unfinished\PinGraph\PinGraph\obj\Debug\net8.0-windows\refint\PinGraph.dll
+C:\Users\kouta\Documents\projects\unfinished\PinGraph\PinGraph\obj\Debug\net8.0-windows\PinGraph.pdb
+C:\Users\kouta\Documents\projects\unfinished\PinGraph\PinGraph\obj\Debug\net8.0-windows\PinGraph.genruntimeconfig.cache
+C:\Users\kouta\Documents\projects\unfinished\PinGraph\PinGraph\obj\Debug\net8.0-windows\ref\PinGraph.dll
+C:\Users\kouta\Documents\projects\unfinished\PinGraph\PinGraph\obj\Debug\net8.0-windows\PinGraph.Properties.Resources.resources
